@@ -1,0 +1,89 @@
+body{
+    background-image: linear-gradient(to right, #5c58b6, #5994ce,#b957ce);
+    background-attachment:scroll;
+    display: grid;
+  
+  
+  
+  }
+  img{
+    width: 20vw;
+    height: auto;
+  }
+  h4{
+    color: #5994ce;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    margin-top: 5%;
+  }
+  .kartu {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    opacity: 95%;
+  }
+  
+  .card-1 {
+    position: relative;
+    border-radius: 20px;
+    width: 30rem;
+    box-shadow: 0 0px 15px white;
+    background-color: aliceblue;
+    line-height: 25px;
+    
+    }
+  
+  
+  .card-img-top {
+    border-radius: 20px;
+    padding: 10px;
+  }
+  a {
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #6957ce;
+    color: white;
+    margin-top: 10%;
+    margin-left: 44%;
+    padding:  5px 15px;
+    text-decoration: none;
+  }
+  a:hover {
+    box-shadow:2px 2px 5px grey;
+    color: white;
+    text-decoration-color: none;
+   
+  }
+  
+  
+  
+  p{
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0 20px;
+    color: black;
+    opacity: 80%;
+    font-size: 14px;
+  
+  }
+  
+  
+  @media only screen and (max-width: 991.5px) {
+    /* For mobile phones: */
+   
+    .card-1 {
+    width: 18rem;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    position: relative;
+  }
+  body{
+    background-image: linear-gradient(to right, #5c58b6, #5994ce);
+  }
+  a {
+    margin-left: 37%;
+  }
+  
+  }
